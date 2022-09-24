@@ -1,0 +1,53 @@
+.about_section
+{
+	margin: 1rem 0;
+}
+
+.container
+{
+	max-width: 45rem;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.container h2
+{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.container div 
+{
+    padding: 0 0 1.5rem 0;
+}
+.container div h2 
+{
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.container div p 
+{
+    padding: .5rem 0;
+    margin: 0;
+    opacity: .7;
+}
+
+.container div h3 
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 0 1rem 0;
+}
+
+.container div ul li 
+{
+    font-size: 1.1rem;
+    font-size: 400;
+}

@@ -1,0 +1,107 @@
+.contact_section
+{
+	margin: 4rem 0;
+}
+
+.container
+{
+	max-width: 35rem;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+}
+
+.contact_form
+{
+	width: 100%;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: .5rem;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+	padding: 3rem 1rem;
+}
+
+.contact_form h2
+{
+	font-size: 2.5rem;
+	text-align: center;
+	font-weight: 400;
+	margin: 0;
+}
+
+.contact_form form 
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.contact_form form div
+{
+	display: flex;
+	flex-direction: column;
+	gap: .2rem;
+	padding: 0 1.5rem;
+}
+.contact_form form div:last-child
+{
+	align-items: center;
+}
+
+.contact_form form div label
+{
+	font-size: 1.5rem;
+	font-weight: 350;
+}
+
+.contact_form form div input,
+.contact_form form div textarea
+{
+	padding: .6rem .8rem;
+	border-radius: .2rem;
+	outline: none;
+	border: .1rem solid rgba(0, 0, 0, .5);
+	width: 100%;
+	font-size: 1rem;
+}
+
+.contact_form form div textarea
+{
+	height: 6rem;
+}
+
+.contact_form form div input:hover,
+.contact_form form div textarea:hover
+{
+	border: .1rem solid skyblue;
+	box-shadow: .5px .5px 5px skyblue;
+}
+
+.contact_form form div input::placeholder,
+.contact_form form div textarea::placeholder
+{
+	font-size: 1rem;
+	color: grey;
+}
+
+
+.contact_form form div .btn
+{
+	width: 30%;
+	padding: .5rem;
+	background: linear-gradient(#7f7fd5,#86a8e7,#91eae4);
+	border: none;
+	color: #fff;
+	font-size: 1.5rem;
+	cursor: pointer;
+	transition: all .3s;
+}
+
+.contact_form form div .btn:hover
+{
+	transform: translateY(-.5rem);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+}
